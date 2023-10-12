@@ -1,0 +1,226 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    list-style: none;
+    
+}
+/* Mise en place du Nav */
+nav{
+    background-color: rgb(54, 54, 117);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+    position: relative;
+    
+}
+.menu {
+    
+    display: flex;
+    margin: 10px;
+    
+}
+.navlogo {
+    height: 30px;
+}
+
+.navlien{
+    color: white;
+    margin: 10px;
+}
+/* Ligne entre nav et header */
+.lignerouge{
+    background-color: brown;
+    padding: 1px;
+}
+/* Mise en place du header */
+
+header{
+    background-image: url(/asset/images/banner.jpeg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: rgb(54, 54, 117);
+   
+    font-size: 450%;
+    text-shadow: 1px 1px 4px white;
+    padding: 50px;
+  
+}
+
+.btn_decouvrir{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    position: relative;
+    bottom:10%;
+    text-align: center;
+    width: 5%;
+    padding: 1%;
+    
+   
+}
+
+/* Mise en place main section 1 */
+
+body{
+    background-color: rgb(212, 204, 196);
+}
+
+h2{
+    color:rgb(54, 54, 117) ;
+    text-align: center;
+    top: 5%;
+    position: relative;
+    margin: 50px;
+    font-size: 40px;
+
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 1%;
+}
+
+
+.cours{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;   
+}
+
+.cours div{
+    margin: 2%;
+    border-radius: 2%;
+    background-color: aliceblue;
+    height: 450px;
+    padding: 10px;
+    width: 40%;
+    box-shadow: 0px 0px 5px;
+
+   
+   
+
+}
+.img_cours{ 
+    height: 40%;
+    object-fit: cover;
+    width: 100%;
+}
+.btn_demarrer{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    padding: 2%;
+    display: block;
+    margin-top: 50px;
+    margin: 50px;
+    
+}
+
+/* Section2 */
+
+.ressources{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.nom{
+    text-align: end;
+}
+
+.ressources div{
+    
+    margin: 2%;
+    border-radius: 2%;
+    background-color: aliceblue;
+    height: 200px;
+    padding: 10px;
+    width: 40%;
+    box-shadow: 0px 0px 5px;
+    
+
+}
+.img_parent{
+    
+    position: relative;
+    bottom: 50px;
+    width : 80px;
+  height : 80px;
+  -moz-border-radius : 25px;
+  -webkit-border-radius : 25px;
+  border-radius : 50%;
+  border: solid 5px white;
+  box-shadow: 2px 2px 4px black;
+
+}
+
+/* section3 */
+
+
+
+form {
+    width: 45%;
+    max-width: 600vw;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgb(237, 9, 9);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+.btn_demarrer:hover{
+    background-color: orangered;
+}
+
+.btn_decouvrir:hover{
+    background-color: orangered;
+}
